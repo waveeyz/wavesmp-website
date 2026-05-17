@@ -1,0 +1,1 @@
+export default function Discord(){return <main className="section"><div className="form"><h1>Join de Discord</h1><p className="muted">Updates, aanmeldingen, events en community.</p><a className="btn" href="https://discord.gg/v6qWFhDBvc">Join Discord</a></div></main>}
