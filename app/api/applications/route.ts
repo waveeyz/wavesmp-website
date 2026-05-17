@@ -1,2 +1,0 @@
-import {NextResponse} from 'next/server';import {supabaseAdmin} from ../../../lib/supabase
-export async function POST(req:Request){const body=await req.json();const {error}=await supabaseAdmin.from('applications').insert({minecraft_name:body.minecraft_name,discord_name:body.discord_name,age:body.age,motivation:body.motivation,roleplay_experience:body.roleplay_experience,status:'pending'});if(error)return NextResponse.json({error:error.message},{status:500});return NextResponse.json({ok:true});}
