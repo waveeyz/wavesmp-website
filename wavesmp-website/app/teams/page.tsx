@@ -1,1 +1,0 @@
-export default function Teams(){return <main className="section"><h1 className="title">Teams</h1><p className="subtitle">Teamnamen worden later bekendgemaakt.</p><div className="teams">{['Noord','Zuid','Oost','West'].map(x=><div className="card" key={x}><div className="icon">?</div><h3>{x}</h3><p className="muted">Binnenkort bekend</p></div>)}</div></main>}

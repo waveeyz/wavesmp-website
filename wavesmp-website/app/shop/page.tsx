@@ -1,1 +1,0 @@
-export default function Shop(){return <main className="section"><div className="form"><h1>Ranks komen binnenkort</h1><p className="muted">Hier komen later alleen ranks te staan. Geen crates.</p></div></main>}
