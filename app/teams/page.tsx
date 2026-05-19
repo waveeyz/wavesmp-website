@@ -1,0 +1,3 @@
+export default function TeamsPage() {
+  return <div dangerouslySetInnerHTML={{ __html: "<section id=\"teams\" class=\"page active\">\n      <div class=\"admin-wrap\">\n        <h1>TEAMS</h1>\n        <p>Kanten / teams worden later bekendgemaakt</p>\n        <div class=\"team-grid page-team-grid\">\n          <div class=\"team blue\"><div>?</div><b>NOORD</b><span>Binnenkort bekend</span></div>\n          <div class=\"team red\"><div>?</div><b>ZUID</b><span>Binnenkort bekend</span></div>\n          <div class=\"team green\"><div>?</div><b>OOST</b><span>Binnenkort bekend</span></div>\n          <div class=\"team gold\"><div>?</div><b>WEST</b><span>Binnenkort bekend</span></div>\n        </div>\n      </div>\n    </section>" }} />;
+}
